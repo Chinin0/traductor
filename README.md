@@ -1,5 +1,5 @@
-# Sistema web para la comercializacion de fotografias de eventos 
-Proyecto para el examen 2 de la materia Software1, con el ing. Martinez.
+# Sistema web para traduccion de videoconferencias. 
+Proyecto para la materia Software1, con el ing. Martinez.
 Utilizando Python, Flask y PosgresSQL.
 
 <hr/>
