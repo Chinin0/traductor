@@ -8,6 +8,7 @@ from flask import Blueprint, render_template, request, session
 #funciones decoradas, (para que puedan ser usadas en otro archivo)
 global_login = Blueprint("login",__name__)
 
-@global_login.route('/', methods = ['GET'])
+@global_login.route('/', methods=['GET', 'POST'])
+
 def login():
     return render_template("login.html")
