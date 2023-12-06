@@ -8,7 +8,7 @@ from flask_wtf.csrf import CSRFProtect # para la proteccion del login, important
 
 
 # importamos las rutas con sus variablas de entorno
-from .routers import global_dashboard, global_home, global_login, global_plans, global_card, global_cardBusiness
+from .routers import global_dashboard, global_home, global_login, global_plans, global_card, global_cardBusiness, global_dashboardPRO
 
 csrf = CSRFProtect()    # creamos una instancia para la proteccion para login   => csrf
 
@@ -32,3 +32,4 @@ proyecto.register_blueprint(global_dashboard, url_prefix = "/dashboard")
 proyecto.register_blueprint(global_plans, url_prefix = "/plans")
 proyecto.register_blueprint(global_card, url_prefix = "/card")
 proyecto.register_blueprint(global_cardBusiness, url_prefix = "/cardBusiness")
+proyecto.register_blueprint(global_dashboardPRO, url_prefix = "/dashboardPRO")
