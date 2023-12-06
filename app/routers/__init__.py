@@ -6,3 +6,4 @@ from .login import global_login
 from .plans import global_plans
 from .card import global_card
 from .cardBusiness import global_cardBusiness
+from .dashboardPRO import global_dashboardPRO
